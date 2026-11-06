@@ -1,0 +1,62 @@
+/* Apariencia general */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: Arial, sans-serif;
+    background: #c3fafc;
+    color: #222;
+}
+
+/* Panel central */
+.contenedor {
+    width: 100%;
+    max-width: 420px;
+    padding: 28px;
+    background: rgba(95, 158, 160, 0.63);
+    border-radius: 12px;
+}
+
+/* Campos y etiquetas */
+label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+input, button {
+    width: 100%;
+    padding: 12px;
+    font: inherit;
+    border-radius: 6px;
+}
+
+input {
+    border: 1px solid #aaa;
+}
+
+/* Botón de interacción */
+button {
+    margin-top: 20px;
+    border: 0;
+    background: #344344;
+    color: rgb(218, 228, 226);
+    cursor: pointer;
+}
+
+button:hover {
+    background: #63e4e4;
+}
+
+/* Zona donde aparece el resultado */
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+}
